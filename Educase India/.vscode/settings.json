@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Connect",
+            "database": "${workspaceFolder:Educase India}/server/userData.db"
+        }
+    ]
+}

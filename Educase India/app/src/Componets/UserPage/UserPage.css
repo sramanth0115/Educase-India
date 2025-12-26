@@ -1,0 +1,188 @@
+/* UserPage.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  .userContainer {
+    min-height: 100vh;
+    padding: 20px 18px 40px;
+    background-color: #f9fafb;
+  }
+  
+  /* Page heading */
+  .userHead1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 14px;
+  }
+  
+  /* Profile card */
+  .userCard1 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background-color: #ffffff;
+    padding: 14px;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    margin-bottom: 12px;
+  }
+  
+  .userImg1 {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #e5e7eb;
+    object-fit: cover;
+  }
+  
+  /* Email text */
+  .userPara1 {
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+  
+  /* Company description */
+  .userPara2 {
+    font-size: 0.9rem;
+    color: #374151;
+    line-height: 1.6;
+    margin: 16px 0 22px;
+  }
+  
+  /* Post creation card */
+  .userPostCard {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    margin-bottom: 24px;
+  }
+  
+  .userPostTitle,
+  .userPostPara {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #6c63ff;
+    margin-bottom: 6px;
+  }
+  
+  /* Inputs */
+  .userPostInput {
+    width: 100%;
+    height: 42px;
+    padding: 0 12px;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 14px;
+    font-size: 0.9rem;
+    outline: none;
+  }
+  
+  .userPostText {
+    width: 100%;
+    min-height: 90px;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    font-size: 0.9rem;
+    resize: vertical;
+    outline: none;
+  }
+  
+  .userPostInput:focus,
+  .userPostText:focus {
+    border-color: #6c63ff;
+  }
+  
+  /* Post button */
+  .userPostButton {
+    margin-top: 14px;
+    width: 100%;
+    height: 44px;
+    background-color: #6c63ff;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .userPostButton:hover {
+    background-color: #574fd6;
+  }
+  
+  /* Divider */
+  hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 24px 0;
+  }
+  
+  /* Posts section */
+  .userTweetHead1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: #1f2937;
+  }
+  
+  /* Individual post */
+  .userTweetCard {
+    background-color: #ffffff;
+    padding: 14px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 12px;
+  }
+  
+  .userTweetHead2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 6px;
+  }
+  
+  .userTweetPara {
+    font-size: 0.9rem;
+    color: #374151;
+    line-height: 1.5;
+  }
+  
+  /* Logout button */
+  .UserButtonLogout {
+    margin-top: 28px;
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    border: 2px solid #6c63ff;
+    color: #6c63ff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .UserButtonLogout:hover {
+    background-color: #6c63ff;
+    color: #ffffff;
+  }
+  
+  /* Tablet & desktop */
+  @media (min-width: 768px) {
+    .userContainer {
+      max-width: 720px;
+      margin: auto;
+    }
+  
+    .userHead1 {
+      font-size: 1.6rem;
+    }
+  }
+  

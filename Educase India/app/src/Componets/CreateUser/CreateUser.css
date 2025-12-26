@@ -1,0 +1,141 @@
+/* CreateUser.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  /* Page heading */
+  .createContainer {
+    padding: 24px 18px 12px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #1f2937;
+    text-align: center;
+  }
+  
+  /* Form wrapper */
+  .createForm {
+    padding: 0 18px 24px;
+    max-width: 360px;
+  }
+  
+  /* Input block */
+  .createCard1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+  }
+  
+  /* Labels */
+  .createLabel1 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #6c63ff;
+    margin-bottom: 4px;
+  }
+  
+  /* Text inputs */
+  .createInput1 {
+    height: 44px;
+    padding: 0 12px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    outline: none;
+  }
+  
+  .createInput1:focus {
+    border-color: #6c63ff;
+  }
+  
+  /* Agency section label */
+  .createlabel2 {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  /* Radio wrapper */
+  .createRadio1 {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+  
+  /* Radio labels */
+  .createLabel3 {
+    font-size: 0.85rem;
+    color: #374151;
+  }
+  
+  /* Radio input */
+  .createInput2 {
+    accent-color: #6c63ff;
+    cursor: pointer;
+  }
+  
+  /* Primary button */
+  .createButton1 {
+    width: 100%;
+    height: 46px;
+    margin-top: 22px;
+    background-color: #6c2cf3;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .createButton1:hover {
+    background-color: #5a23d1;
+  }
+  
+  /* Error / server message */
+  .createErrorMessage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    color: #dc2626;
+    min-height: 16px;
+  }
+  
+  /* Back button */
+  .createButton2 {
+    width: 100%;
+    height: 46px;
+    margin-top: 0px;
+    color: #6c2cf3;
+    background-color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 2px solid #6c2cf3;
+    cursor: pointer;
+  }
+
+  
+  .createButton2:hover {
+    background-color: #6c63ff;
+    color: #ffffff;
+  }
+  
+  /* Tablet & desktop */
+  @media (min-width: 768px) {
+    .createContainer {
+      font-size: 1.8rem;
+    }
+  
+    .createForm {
+      margin: auto;
+    }
+  }
+  

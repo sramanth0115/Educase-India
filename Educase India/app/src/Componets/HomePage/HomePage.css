@@ -1,0 +1,81 @@
+/* HomePage.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Robot, Helvetica, Arial, sans-serif;
+  }
+  
+  .homeContainer {
+    min-height: 100vh;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f5f7fb;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .homeHead {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1f2933;
+    margin-bottom: 16px;
+  }
+  
+  .homePara {
+    max-width: 600px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #616e7c;
+    margin-bottom: 32px;
+  }
+  
+  .homeButton1,
+  .homeButton2 {
+    width: 100%;
+    max-width: 320px;
+    padding: 14px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .homeButton1 {
+    background-color: #6c63ff;
+    color: #ffffff;
+    margin-bottom: 14px;
+  }
+  
+  .homeButton1:hover {
+    background-color: #574fd6;
+  }
+  
+  .homeButton2 {
+    background-color: transparent;
+    color: #6c63ff;
+    border: 2px solid #6c63ff;
+  }
+  
+  .homeButton2:hover {
+    background-color: #6c63ff;
+    color: #ffffff;
+  }
+  
+  /* Responsive adjustments */
+  @media (min-width: 768px) {
+    .homeHead {
+      font-size: 2.6rem;
+    }
+  
+    .homePara {
+      font-size: 1.05rem;
+    }
+  }
+  
