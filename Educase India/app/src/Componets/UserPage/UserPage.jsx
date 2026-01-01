@@ -26,7 +26,7 @@ class UserP extends Component {
       }
 
       const response = await axios.post(
-        'http://localhost:3001/getPosts',
+        'https://educase-india-uhsz.onrender.com/getPosts',
         { Id },
         config
       )
@@ -62,7 +62,7 @@ class UserP extends Component {
       }
 
       const response = await axios.post(
-        'http://localhost:3001/createPost',
+        'https://educase-india-uhsz.onrender.com/createPost',
         { Id, title, para },
         config
       )

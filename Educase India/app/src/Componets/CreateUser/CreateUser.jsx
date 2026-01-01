@@ -43,7 +43,7 @@ class CreateP extends Component {
                     }
                     else{
                         let data = {name:fullname, phone:phone, email:email, pass:pass, company:company}
-                        let getrows = await axios.post("http://localhost:3001/create", data) 
+                        let getrows = await axios.post("https://educase-india-uhsz.onrender.com/create", data) 
                         this.setState(prev => ({fullname:prev.fullname, phone:prev.phone, email:prev.email, pass:prev.pass, company:prev.company, serverMessage:getrows.data}))                                 
                     }
 

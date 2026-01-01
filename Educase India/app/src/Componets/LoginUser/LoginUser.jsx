@@ -30,13 +30,13 @@ export class LoginP extends Component {
                         this.setState({serverMessage:'Please fill in all required fields'})
                     }else {
                         const data = {email:email, pass:pass}
-                        getToken = await axios.post("http://localhost:3001/login", data) 
+                        getToken = await axios.post("https://educase-india-uhsz.onrender.com/login", data) 
                         getToken = getToken.data
                         if (typeof(getToken) === typeof({hello:1})){
                             const getData = {
                                 headers:{'authorization':`Bearer ${getToken.token}`}
                             }
-                            let getrows = await axios.get("http://localhost:3001/user", getData)
+                            let getrows = await axios.get("https://educase-india-uhsz.onrender.com/user", getData)
                             getrows = getrows.data
                             if(typeof(getrows) === typeof({hello:1})){
                                 getUserData = getrows
