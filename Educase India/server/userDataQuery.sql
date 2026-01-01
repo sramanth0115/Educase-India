@@ -2,4 +2,4 @@
 -- userData 
 
 
-SELECT * FROM loginUser
+SELECT * FROM userData
