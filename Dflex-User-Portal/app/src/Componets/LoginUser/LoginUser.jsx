@@ -29,6 +29,7 @@ export class LoginP extends Component {
                     if(email ==='' || pass ===""){
                         this.setState({serverMessage:'Please fill in all required fields'})
                     }else {
+                        this.setState({serverMessage:'Please wait 5–10 seconds while the server responds'})
                         const data = {email:email, pass:pass}
                         getToken = await axios.post("https://educase-india-uhsz.onrender.com/login", data) 
                         getToken = getToken.data

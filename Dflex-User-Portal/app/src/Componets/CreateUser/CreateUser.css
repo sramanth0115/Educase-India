@@ -7,7 +7,6 @@
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   }
   
-  /* Page heading */
   .createContainer {
     padding: 24px 18px 12px;
     font-size: 1.6rem;
@@ -16,20 +15,19 @@
     text-align: center;
   }
   
-  /* Form wrapper */
   .createForm {
     padding: 0 18px 24px;
     max-width: 360px;
   }
   
-  /* Input block */
+
   .createCard1 {
     display: flex;
     flex-direction: column;
     margin-bottom: 14px;
   }
   
-  /* Labels */
+
   .createLabel1 {
     font-size: 0.75rem;
     font-weight: 600;
@@ -37,7 +35,7 @@
     margin-bottom: 4px;
   }
   
-  /* Text inputs */
+
   .createInput1 {
     height: 44px;
     padding: 0 12px;
@@ -51,7 +49,7 @@
     border-color: #6c63ff;
   }
   
-  /* Agency section label */
+
   .createlabel2 {
     display: block;
     margin-top: 8px;
@@ -61,7 +59,7 @@
     color: #1f2937;
   }
   
-  /* Radio wrapper */
+
   .createRadio1 {
     display: flex;
     align-items: center;
@@ -69,19 +67,19 @@
     margin-bottom: 6px;
   }
   
-  /* Radio labels */
+ 
   .createLabel3 {
     font-size: 0.85rem;
     color: #374151;
   }
   
-  /* Radio input */
+
   .createInput2 {
     accent-color: #6c63ff;
     cursor: pointer;
   }
   
-  /* Primary button */
+
   .createButton1 {
     width: 100%;
     height: 46px;
@@ -93,22 +91,25 @@
     border-radius: 6px;
     border: none;
     cursor: pointer;
+    margin-bottom: 14px;
   }
   
   .createButton1:hover {
     background-color: #5a23d1;
   }
   
-  /* Error / server message */
+
   .createErrorMessage {
-    margin-top: 10px;
     margin-bottom: 10px;
     font-size: 0.8rem;
     color: #dc2626;
     min-height: 16px;
   }
   
-  /* Back button */
+  .hideMsg{
+    display: none;
+  }
+
   .createButton2 {
     width: 100%;
     height: 46px;
@@ -128,7 +129,7 @@
     color: #ffffff;
   }
   
-  /* Tablet & desktop */
+
   @media (min-width: 768px) {
     .createContainer {
       font-size: 1.8rem;

@@ -13,7 +13,6 @@
     background-color: #f9fafb;
   }
   
-  /* Page heading */
   .userHead1 {
     font-size: 1.4rem;
     font-weight: 700;
@@ -21,7 +20,7 @@
     margin-bottom: 14px;
   }
   
-  /* Profile card */
+
   .userCard1 {
     display: flex;
     align-items: center;
@@ -41,13 +40,13 @@
     object-fit: cover;
   }
   
-  /* Email text */
+
   .userPara1 {
     font-size: 0.85rem;
     color: #6b7280;
   }
   
-  /* Company description */
+
   .userPara2 {
     font-size: 0.9rem;
     color: #374151;
@@ -55,7 +54,7 @@
     margin: 16px 0 22px;
   }
   
-  /* Post creation card */
+ 
   .userPostCard {
     background-color: #ffffff;
     padding: 16px;
@@ -72,7 +71,7 @@
     margin-bottom: 6px;
   }
   
-  /* Inputs */
+
   .userPostInput {
     width: 100%;
     height: 42px;
@@ -100,7 +99,7 @@
     border-color: #6c63ff;
   }
   
-  /* Post button */
+ 
   .userPostButton {
     margin-top: 14px;
     width: 100%;
@@ -118,14 +117,14 @@
     background-color: #574fd6;
   }
   
-  /* Divider */
+
   hr {
     border: none;
     border-top: 1px solid #e5e7eb;
     margin: 24px 0;
   }
   
-  /* Posts section */
+
   .userTweetHead1 {
     font-size: 1.2rem;
     font-weight: 700;
@@ -133,7 +132,7 @@
     color: #1f2937;
   }
   
-  /* Individual post */
+
   .userTweetCard {
     background-color: #ffffff;
     padding: 14px;
@@ -155,7 +154,7 @@
     line-height: 1.5;
   }
   
-  /* Logout button */
+
   .UserButtonLogout {
     margin-top: 28px;
     width: 100%;
@@ -174,7 +173,7 @@
     color: #ffffff;
   }
   
-  /* Tablet & desktop */
+
   @media (min-width: 768px) {
     .userContainer {
       max-width: 720px;

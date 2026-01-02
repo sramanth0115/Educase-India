@@ -42,6 +42,7 @@ class CreateP extends Component {
                         this.setState({serverMessage:'Invalid phone number'})
                     }
                     else{
+                        this.setState({serverMessage:'Please wait 5–10 seconds while the server responds'})
                         let data = {name:fullname, phone:phone, email:email, pass:pass, company:company}
                         let getrows = await axios.post("https://educase-india-uhsz.onrender.com/create", data) 
                         this.setState(prev => ({fullname:prev.fullname, phone:prev.phone, email:prev.email, pass:prev.pass, company:prev.company, serverMessage:getrows.data}))                                 
@@ -101,7 +102,7 @@ class CreateP extends Component {
                         </div>
                     </div>
                     <button className='createButton1' type='submit'> Create Account </button>
-                    <p className='createErrorMessage'>{serverMessage}</p>
+                    {serverMessage?<p className='createErrorMessage'>{serverMessage}</p>:<p className='createErrorMessage hideMsg'>{serverMessage}</p>}
                     <button className='createButton2' onClick={goToHome}> Back </button>
                 </form>
             </div>
