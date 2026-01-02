@@ -26,7 +26,7 @@ class UserP extends Component {
       }
 
       const response = await axios.post(
-        'https://educase-india-uhsz.onrender.com/getPosts',
+        'https://dflex-user-portal.onrender.com/getPosts',
         { Id },
         config
       )
@@ -62,7 +62,7 @@ class UserP extends Component {
       }
 
       const response = await axios.post(
-        'https://educase-india-uhsz.onrender.com/createPost',
+        'https://dflex-user-portal.onrender.com/createPost',
         { Id, title, para },
         config
       )

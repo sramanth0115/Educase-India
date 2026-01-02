@@ -42,9 +42,9 @@ class CreateP extends Component {
                         this.setState({serverMessage:'Invalid phone number'})
                     }
                     else{
-                        this.setState({serverMessage:'Please wait 5–10 seconds while the server responds'})
+                        this.setState({serverMessage:'Please wait 5–20 seconds while the server responds'})
                         let data = {name:fullname, phone:phone, email:email, pass:pass, company:company}
-                        let getrows = await axios.post("https://educase-india-uhsz.onrender.com/create", data) 
+                        let getrows = await axios.post("https://dflex-user-portal.onrender.com/create", data) 
                         this.setState(prev => ({fullname:prev.fullname, phone:prev.phone, email:prev.email, pass:prev.pass, company:prev.company, serverMessage:getrows.data}))                                 
                     }
 
