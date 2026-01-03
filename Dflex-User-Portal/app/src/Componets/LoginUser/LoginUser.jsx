@@ -29,7 +29,7 @@ export class LoginP extends Component {
                     if(email ==='' || pass ===""){
                         this.setState({serverMessage:'Please fill in all required fields'})
                     }else {
-                        this.setState({serverMessage:'Please wait 5–20 seconds while the server responds'})
+                        this.setState({serverMessage:'Please wait 5-20 seconds while the server responds'})
                         const data = {email:email, pass:pass}
                         getToken = await axios.post("https://dflex-user-portal.onrender.com/login", data) 
                         getToken = getToken.data
@@ -78,8 +78,9 @@ export class LoginP extends Component {
 
         return(
             <div className='LoginContainer'>
-                <h1> Signin to your Popx account </h1>
-                <p> Popx India Private Limited is an IT company that focuses on application development and software solutions in the information technology sector </p>
+                <h1> Signin to your Dflex account </h1>
+                <p> Dflex is a web platform that allows users to create accounts, log in securely, and share posts seamlessly.
+It focuses on providing a clean, user-friendly experience for managing user content and interactions </p>
                 <form className='loginForm' onSubmit={goToUser}>
                     <div className='loginCard'>
                         <for className='loginFor' for='email'> Email </for>

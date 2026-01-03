@@ -66,7 +66,7 @@ class CreateP extends Component {
     
         return(
             <div>
-                <h1 className='createContainer'> Create your PopX account </h1>
+                <h1 className='createContainer'> Create your Dflex account </h1>
                 <form className='createForm' onSubmit={createAccount}>
                     <div className='createCard1'>
                         <label className='createLabel1' for="name"> FullName </label>

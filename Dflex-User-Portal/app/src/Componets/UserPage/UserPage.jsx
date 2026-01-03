@@ -98,8 +98,8 @@ class UserP extends Component {
         </div>
 
         <p className='userPara2'>
-          {company} India Private Limited is an IT company that focuses on
-          application development and software solutions.
+          {company} Dflex is a web platform that allows users to create accounts, log in securely, and share posts seamlessly.
+It focuses on providing a clean, user-friendly experience for managing user content and interactions.
         </p>
 
         <div className='userPostCard'>
