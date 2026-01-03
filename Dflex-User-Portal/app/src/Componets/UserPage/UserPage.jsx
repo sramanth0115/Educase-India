@@ -98,7 +98,7 @@ class UserP extends Component {
         </div>
 
         <p className='userPara2'>
-          {company} Dflex is a web platform that allows users to create accounts, log in securely, and share posts seamlessly.
+          {company} is a web platform that allows users to create accounts, log in securely, and share posts seamlessly.
 It focuses on providing a clean, user-friendly experience for managing user content and interactions.
         </p>
 
